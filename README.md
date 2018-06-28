@@ -14,4 +14,4 @@ cd web
 编辑 ecshop data/config.php 和 本项目的 .env 配置数据库信息
 注意 config.php 中的 $db_host = "mysqldb"
 导入数据库：  
-`sudo docker exec -i mysql mysql -uroot -p123456 dbname < 'xxxxxxxxxxxxxxx.sql'``
+`sudo docker exec -i mysql mysql -uroot -p123456 dbname < 'xxxxxxxxxxxxxxx.sql'`
