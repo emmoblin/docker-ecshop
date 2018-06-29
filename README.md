@@ -2,10 +2,10 @@
 ### 使用方法：  
 
 1. 拉取代码：  
-git clone https：//github.com/lduhejian/docker-ecshop.git  
+git clone https://github.com/lduhejian/docker-ecshop.git  
 cd docker-ecshop/web  
 2. 拉取 ecshop 代码：  
-git clone repo：your-ecshop-code  
+git clone repo:your-ecshop-code  
 3. 配置 nginx：  
 cp .env.example .env  
 编辑 .env, 设置 PROJECT_NAME 为你的 ecshop 项目名
@@ -17,6 +17,6 @@ sudo docker-compose up
 6. 导入数据库：  
 sudo docker exec -i mysql mysql -uroot -p123456 dbname < 'xxxxxxxxxxxxxxx.sql'
 7. 访问商城：  
-localhost：10001
+localhost:10001
 
-更多信息参见：[docker-nginx-php-mysql](https：//github.com/nanoninja/docker-nginx-php-mysql)
+更多信息参见：[docker-nginx-php-mysql](https://github.com/nanoninja/docker-nginx-php-mysql)
