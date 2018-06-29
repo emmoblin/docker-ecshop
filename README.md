@@ -2,9 +2,7 @@
 
 1. 拉取代码：  
 git clone https://github.com/lduhejian/docker-ecshop.git  
-cd docker-ecshop  
-mkdir web  
-cd web  
+cd docker-ecshop/web  
 2. 拉取 ecshop 代码：  
 git clone repo:your-ecshop-code  
 3. 配置 nginx:  
