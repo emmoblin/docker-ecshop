@@ -23,3 +23,5 @@ nbproject/
 
 # SSL Certs
 etc/ssl/
+
+.env

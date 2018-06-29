@@ -6,7 +6,8 @@ cd docker-ecshop/web
 2. 拉取 ecshop 代码：  
 git clone repo:your-ecshop-code  
 3. 配置 nginx:  
-替换 default.conf 和 default.template.conf 第 11 行的 your_project_name 为你的项目名
+cp .env.example .env  
+设置 PROJECT_NAME 为你的 ecshop 项目名
 4. 配置数据库：  
 编辑 ecshop data/config.php 和 本项目的 .env 配置数据库信息  
 编辑 config.php 中的 $db_host = "mysqldb"  
